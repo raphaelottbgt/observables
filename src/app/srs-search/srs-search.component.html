@@ -1,0 +1,11 @@
+<p>
+  Srs-Searchs
+</p>
+
+<form [formGroup]="searchForm">
+  <input formControlName="search" placeholder="Search Sportscontent" class="search-field">
+</form>
+
+<div class="search-results">
+  <p *ngFor="let result of searchResults">{{result.title}}</p>
+</div>
