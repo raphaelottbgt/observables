@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { UsingObservablesComponent } from './using-observables/using-observables.component';
+import { PromiseVsObservableComponent } from './promise-vs-observable/promise-vs-observable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsingObservablesComponent
+    UsingObservablesComponent,
+    PromiseVsObservableComponent
   ],
   imports: [
     BrowserModule,
