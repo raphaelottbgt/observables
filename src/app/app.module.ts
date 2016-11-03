@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { UsingObservablesComponent } from './using-observables/using-observables.component';
 import { PromiseVsObservableComponent } from './promise-vs-observable/promise-vs-observable.component';
+import { HotVsColdComponent } from './hot-vs-cold/hot-vs-cold.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsingObservablesComponent,
-    PromiseVsObservableComponent
+    PromiseVsObservableComponent,
+    HotVsColdComponent
   ],
   imports: [
     BrowserModule,
