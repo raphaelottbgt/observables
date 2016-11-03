@@ -9,6 +9,10 @@
   width: 50%;
   height: 100%;
   color: white;
+  font-size: 30px;
+  text-align: center; 
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .blue {
