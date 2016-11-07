@@ -2,7 +2,7 @@
 
 To view a component just add the corresponding html selector to the app-component.html:
 
-e.g. <hot-vs-cold></hot-vs-cold>
+e.g. ```<hot-vs-cold></hot-vs-cold>```
 
 Alternatively you can switch to the appropriate feature branch:
 
