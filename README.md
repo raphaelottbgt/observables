@@ -1,5 +1,13 @@
 # Observables
 
+To view a component just add the corresponding html selector to the app-component.html:
+
+e.g. <hot-vs-cold></hot-vs-cold>
+
+Alternatively you can switch to the appropriate feature branch:
+
+e.g. git checkout feature-04/hot-vs-cold
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
 ## Development server
